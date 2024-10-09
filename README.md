@@ -5,10 +5,8 @@ Below you can find an outline of how to reproduce my part of solution for the RS
 - Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz
 ## Usage
 ### Prerequisites
-Download the data in the `input` folder:
-  - [Competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data)
-Add the csv files from this public dataset to the `input` folder:
-  - [public coordinates data](https://www.kaggle.com/datasets/brendanartley/lumbar-coordinate-pretraining-dataset)
+- Download the [Competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data) in the `input` folder: 
+- Add the csv files from this [public coordinates data](https://www.kaggle.com/datasets/brendanartley/lumbar-coordinate-pretraining-dataset) to the `input` folder:
 ### Training
 #### stage 1
 - sagittal_t1 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with the hyperparameter 'orientation' =  'Sagittal T1'
