@@ -19,6 +19,6 @@ Add the csv files from this public dataset to the `input` folder:
 the output of the execution is saved in the `stage1` folder
 #### stage 2
 - pretrain : stage2/kaggle_rsna_lsdc_stage2_pretrain.ipynb, the output is saved in `stage2` folder.
-- finetune : take the weights with the best test score from the pretraining phase use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
+- finetune : take the weights with the best test score from the pretraining phase, then use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
 
 
