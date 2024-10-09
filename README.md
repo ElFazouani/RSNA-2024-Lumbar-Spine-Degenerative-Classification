@@ -12,7 +12,7 @@ Below you can find an outline of how to reproduce my part of solution for the RS
 - sagittal_t1 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with CustomConfig.orientation =  'Sagittal T1'
 - sagittal_t2 : run the same notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with the hyperparameter CustomConfig.orientation = 'Sagittal T2/STIR'
 - axial_t2 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_axial.ipynb
-- generation of coordinates from the trained models : stage1/kaggle_rsna_lsdc_stage1_test.ipynb
+- This notebook stage1/kaggle_rsna_lsdc_stage1_test.ipynb will generate coordinates that will be used after in stage2
 
 the output of the execution is saved in the `stage1` folder
 #### stage 2
