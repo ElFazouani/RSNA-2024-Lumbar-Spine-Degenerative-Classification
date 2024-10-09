@@ -22,6 +22,7 @@ the output of the execution is saved in the `stage1` folder, I saved the results
 - pretrain : run this notebook stage2/kaggle_rsna_lsdc_stage2_pretrain.ipynb, the weights will be saved in `stage2` folder.
 - finetune : take the weights with the best auc from the pretraining phase, then use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
 - Change CustomConfig.version to 2 and 3, and run the same pretraining and finetuning notebooks.
+- Train another seed (2024) with the same setups on the three versions of the model, the best performing model for each fold will be chosed from the two seeds and will be used in inference.
 
 The weights of stage 2 are saved in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/rsna-stage2-weights).
 
