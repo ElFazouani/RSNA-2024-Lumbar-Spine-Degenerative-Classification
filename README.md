@@ -1,8 +1,8 @@
 # 5th place solution (Ahmed El Fazouani's part)
 Below you can find an outline of how to reproduce my part of solution for the RSNA 2024 Lumbar Spine Degenerative Classification.
 ## Requirements
-NVIDIA GeForce RTX 3090 + AMD EPYC 7302P 16-Core Processor
-Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz
+- NVIDIA GeForce RTX 3090 + AMD EPYC 7302P 16-Core Processor
+- Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz
 ## Usage
 ### Prerequisites
 Download the data in the `input` folder:
