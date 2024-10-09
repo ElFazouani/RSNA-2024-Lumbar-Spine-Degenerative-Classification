@@ -1,11 +1,13 @@
 # 5th place solution (@ahmedelfazouan's part)
-Below you can find an outline of how to reproduce my part of solution for the RSNA 2024 Lumbar Spine Degenerative Classification.
+Below you can find an outline of how to reproduce my part of the solution for the RSNA 2024 Lumbar Spine Degenerative Classification.
+If you have any questions please contact me: elfazouaniah@gmail.com
+More details about our solution and my teammate's part can be found [here](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539472).
 ## Requirements
-- NVIDIA GeForce RTX 3090 + AMD EPYC 7302P 16-Core Processor
-- Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz
+- Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz : used to train axial view of stage1.
+- NVIDIA GeForce RTX 3090 + AMD EPYC 7302P 16-Core Processor : used to train the rest.
 ## Usage
 ### Prerequisites
-- Download the [Competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data) in the `input` folder: 
+- Download the [Competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data) and put it in the `input` folder: 
 - Add the csv files from this [public coordinates data](https://www.kaggle.com/datasets/brendanartley/lumbar-coordinate-pretraining-dataset) to the `input` folder:
 ### Training
 #### stage 1
@@ -22,6 +24,6 @@ the output of the execution is saved in the `stage1` folder, I saved the results
 
 The weights of stage 2 are saved in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/rsna-stage2-weights).
 
-#### Inference notebook
+#### Inference notebook :
 https://www.kaggle.com/ahmedelfazouan/rsna-inference
 
