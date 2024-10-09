@@ -15,6 +15,7 @@ Add the csv files from this public dataset to the `input` folder:
 - sagittal_t2 : run the same notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with the hyperparameter 'orientation' = 'Sagittal T2/STIR'
 - axial_t2 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_axial.ipynb
 - generation of coordinates from the trained models : stage1/kaggle_rsna_lsdc_stage1_test.ipynb
+
 the output of the execution is saved in the `stage1` folder
 #### stage 2
 - pretrain : stage2/kaggle_rsna_lsdc_stage2_pretrain.ipynb, the output is saved in `stage2` folder.
