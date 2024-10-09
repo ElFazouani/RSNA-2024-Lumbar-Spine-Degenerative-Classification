@@ -14,9 +14,14 @@ Below you can find an outline of how to reproduce my part of solution for the RS
 - axial_t2 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_axial.ipynb
 - This notebook stage1/kaggle_rsna_lsdc_stage1_test.ipynb will generate coordinates that will be used after in stage2
 
-the output of the execution is saved in the `stage1` folder
+the output of the execution is saved in the `stage1` folder, I saved the results of stage1 in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/stage1-rsna-effnet). 
 #### stage 2
 - pretrain : run this notebook stage2/kaggle_rsna_lsdc_stage2_pretrain.ipynb, the weights will be saved in `stage2` folder.
 - finetune : take the weights with the best auc from the pretraining phase, then use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
+- Change CustomConfig.version to 2 and 3, and run the same pretraining and finetuning notebooks.
 
+The weights of stage 2 are saved in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/rsna-stage2-weights).
+
+#### Inference notebook
+https://www.kaggle.com/ahmedelfazouan/rsna-inference
 
