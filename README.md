@@ -1,5 +1,5 @@
 # 5th place solution (@ahmedelfazouan's part)
-Below you can find an outline of how to reproduce my part of the solution for the RSNA 2024 Lumbar Spine Degenerative Classification.
+Below you can find an outline of how to reproduce my part of the solution for the RSNA 2024 Lumbar Spine Degenerative Classification competition.
 If you have any questions please contact me: elfazouaniah@gmail.com
 More details about our solution and my teammate's part can be found [here](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539472).
 ## Requirements
