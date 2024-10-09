@@ -17,6 +17,6 @@ Below you can find an outline of how to reproduce my part of solution for the RS
 the output of the execution is saved in the `stage1` folder
 #### stage 2
 - pretrain : run this notebook stage2/kaggle_rsna_lsdc_stage2_pretrain.ipynb, the weights will be saved in `stage2` folder.
-- finetune : take the weights with the best aug from the pretraining phase, then use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
+- finetune : take the weights with the best auc from the pretraining phase, then use this notebook for finetuning : stage2/kaggle_rsna_lsdc_stage2_finetune.ipynb
 
 
