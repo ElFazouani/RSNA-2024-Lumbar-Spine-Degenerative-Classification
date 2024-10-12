@@ -17,10 +17,9 @@ cd input
 ```
 ### Training
 #### stage 1
-- sagittal_t1 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with CustomConfig.orientation =  'Sagittal T1'
-- sagittal_t2 : run the same notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with the hyperparameter CustomConfig.orientation = 'Sagittal T2/STIR'
+- sagittal_t1 & sagittal_t2 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb
 - axial_t2 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_axial.ipynb
-- This notebook stage1/kaggle_rsna_lsdc_stage1_test.ipynb will generate coordinates that will be used after in stage2
+- generate coordinates : run the notebook stage1/kaggle_rsna_lsdc_stage1_test.ipynb
 
 the output of the execution is saved in the `stage1` folder, I saved the results of stage1 in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/stage1-rsna-effnet). 
 #### stage 2
