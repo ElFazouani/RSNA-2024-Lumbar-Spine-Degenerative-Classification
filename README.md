@@ -17,13 +17,13 @@ cd input
 ```
 ### Training
 #### stage 1
-- sagittal_t1 & sagittal_t2 : run the notebook kaggle_rsna_lsdc_stage1_train_sagittal.ipynb
-- axial_t2 : run the notebook kaggle_rsna_lsdc_stage1_train_axial.ipynb
-- generate coordinates : run the notebook kaggle_rsna_lsdc_stage1_test.ipynb
+- sagittal_t1 & sagittal_t2 : run the notebook **kaggle_rsna_lsdc_stage1_train_sagittal.ipynb**
+- axial_t2 : run the notebook **kaggle_rsna_lsdc_stage1_train_axial.ipynb**
+- generate coordinates : run the notebook **kaggle_rsna_lsdc_stage1_test.ipynb**
 
 the output of the execution is saved in the `stage1` folder, I saved the results of stage1 in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/stage1-rsna-effnet). 
 #### stage 2
-- run this notebook kaggle_rsna_lsdc_stage2.ipynb
+- run this notebook **kaggle_rsna_lsdc_stage2.ipynb**
 
 This notebook will pretrain and finetune three versions of the model for two seeds.
 
