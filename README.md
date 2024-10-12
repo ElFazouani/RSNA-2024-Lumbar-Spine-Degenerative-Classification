@@ -24,7 +24,9 @@ cd input
 the output of the execution is saved in the `stage1` folder, I saved the results of stage1 in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/stage1-rsna-effnet). 
 #### stage 2
 - run this notebook stage2/kaggle_rsna_lsdc_stage2.ipynb
+
 This notebook will pretrain and finetune three versions of the model and two seeds.
+
 The weights of stage 2 are saved in this dataset [here](https://www.kaggle.com/datasets/ahmedelfazouan/rsna-stage2-weights).
 
 #### Inference notebook :
