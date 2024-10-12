@@ -3,13 +3,19 @@ Below you can find an outline of how to reproduce my part of the solution for th
 If you have any questions please contact me : elfazouaniah@gmail.com
 
 More details about our solution and my teammate's part can be found [here](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539472).
-## Requirements
-- Quadro RTX 8000 + Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz : used to train axial view of stage1.
-- NVIDIA GeForce RTX 3090 + AMD EPYC 7302P 16-Core Processor : used to train the rest.
+## Environment
+```
+pip install -r requirements.txt
+```
 ## Usage
 ### Prerequisites
-- Download the [Competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data) and put it in the `input` folder: 
-- Add the csv files from this [public coordinates data](https://www.kaggle.com/datasets/brendanartley/lumbar-coordinate-pretraining-dataset) to the `input` folder:
+- Competition data
+- Improved coordinates
+```
+mkdir input
+cd input
+. download.sh
+```
 ### Training
 #### stage 1
 - sagittal_t1 : run the notebook stage1/kaggle_rsna_lsdc_stage1_train_sagittal.ipynb with CustomConfig.orientation =  'Sagittal T1'
