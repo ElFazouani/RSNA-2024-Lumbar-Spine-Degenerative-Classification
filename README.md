@@ -12,7 +12,6 @@ pip install -r requirements.txt
 - Competition data
 - Improved coordinates
 ```
-mkdir input
 cd input
 . download.sh
 ```
